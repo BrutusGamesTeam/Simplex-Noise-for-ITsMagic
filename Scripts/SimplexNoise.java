@@ -7,6 +7,13 @@ import JAVARuntime.Vector2;
 
 public class SimplexNoise
 {
+    static
+    {
+        int[] p = {
+            
+        };
+    }
+    
     public static Texture noise(int w, int h)
     {
         Texture t = new Texture().white();
